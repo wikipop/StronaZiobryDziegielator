@@ -3,6 +3,8 @@
 ## Opis
 Ten projekt to narzędzie edukacyjne, które demonstruje interakcję z API strony TestNr.org. Skrypt wysyła zapytania do serwera, który generuje kod CAPTCHA i przesyła go do klienta (XDDD), a następnie wykorzystuje ten kod do walidacji losowo wygenerowanych numerów.
 
+![image](https://github.com/user-attachments/assets/a12f54a1-e11f-4ff7-be57-7de691854eb9)
+
 ## Funkcjonalność
 - Generowanie losowych numerów i numerów telefonów
 - Pobieranie kodów CAPTCHA z serwera TestNr.org
