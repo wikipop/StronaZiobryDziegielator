@@ -1,0 +1,64 @@
+2025-06-01 22:55:16,419 - __main__ - INFO - Rozpoczêcie wykonania programu
+2025-06-01 22:55:16,419 - __main__ - INFO - Rozpoczêcie generowania kodu CAPTCHA
+2025-06-01 22:55:16,713 - __main__ - INFO - Pomyœlnie wygenerowano kod CAPTCHA: 6GUE8M
+2025-06-01 22:55:16,713 - __main__ - INFO - Rozpoczêcie walidacji numeru: 2894588410263594, telefon: 5123076337
+2025-06-01 22:56:16,958 - __main__ - ERROR - B³¹d HTTP (validate-numer): 504 Server Error: Gateway Time-out for url: https://testnr.org/numer/api/validate-numer
+2025-06-01 22:56:16,958 - __main__ - ERROR - Treœæ odpowiedzi: <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.22.1</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+2025-06-01 22:56:16,959 - __main__ - WARNING - Walidacja nie powiod³a siê
+2025-06-01 22:56:16,959 - __main__ - INFO - Zakoñczenie wykonania programu
+2025-06-01 22:57:37,922 - __main__ - INFO - Rozpoczêcie wykonania programu
+2025-06-01 22:57:37,922 - __main__ - INFO - Rozpoczêcie generowania kodu CAPTCHA
+2025-06-01 22:57:38,192 - __main__ - INFO - Pomyœlnie wygenerowano kod CAPTCHA: Z2UI0K
+2025-06-01 22:57:38,193 - __main__ - INFO - Rozpoczêcie walidacji numeru: 4348604358880888, telefon: 6234017232
+2025-06-01 22:57:38,437 - __main__ - ERROR - B³¹d HTTP (validate-numer): 400 Client Error: Bad Request for url: https://testnr.org/numer/api/validate-numer
+2025-06-01 22:57:38,437 - __main__ - ERROR - Treœæ odpowiedzi: {"error":"Numer telefonu musi sk³adaæ siê z dok³adnie 9 cyfr"}
+2025-06-01 22:57:38,437 - __main__ - WARNING - Walidacja nie powiod³a siê
+2025-06-01 22:57:38,437 - __main__ - INFO - Zakoñczenie wykonania programu
+2025-06-01 22:58:47,478 - __main__ - INFO - Rozpoczêcie wykonania programu
+2025-06-01 22:58:47,478 - __main__ - INFO - Rozpoczêcie generowania kodu CAPTCHA
+2025-06-01 22:58:47,739 - __main__ - INFO - Pomyœlnie wygenerowano kod CAPTCHA: 3ZBFK1
+2025-06-01 22:58:47,740 - __main__ - INFO - Rozpoczêcie walidacji numeru: 1053788362784493, telefon: 9125006786
+2025-06-01 22:58:47,986 - __main__ - ERROR - B³¹d HTTP (validate-numer): 400 Client Error: Bad Request for url: https://testnr.org/numer/api/validate-numer
+2025-06-01 22:58:47,986 - __main__ - ERROR - Treœæ odpowiedzi: {"error":"Numer telefonu musi sk³adaæ siê z dok³adnie 9 cyfr"}
+2025-06-01 22:58:47,986 - __main__ - WARNING - Walidacja nie powiod³a siê
+2025-06-01 22:58:47,986 - __main__ - INFO - Zakoñczenie wykonania programu
+2025-06-01 22:59:07,037 - __main__ - INFO - Rozpoczêcie wykonania programu
+2025-06-01 22:59:07,037 - __main__ - CRITICAL - Wyst¹pi³ nieoczekiwany b³¹d: empty range in randrange(1000000000, 1000000000)
+Traceback (most recent call last):
+  File "C:\Users\Wiktor\PyCharmMiscProject\main.py", line 161, in <module>
+    phone = random.randint(1000000000, 999999999)
+  File "C:\Users\Wiktor\AppData\Local\Programs\Python\Python313\Lib\random.py", line 340, in randint
+    return self.randrange(a, b+1)
+           ~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Wiktor\AppData\Local\Programs\Python\Python313\Lib\random.py", line 323, in randrange
+    raise ValueError(f"empty range in randrange({start}, {stop})")
+ValueError: empty range in randrange(1000000000, 1000000000)
+2025-06-01 22:59:07,038 - __main__ - INFO - Zakoñczenie wykonania programu
+2025-06-01 22:59:28,765 - __main__ - INFO - Rozpoczêcie wykonania programu
+2025-06-01 22:59:28,765 - __main__ - INFO - Rozpoczêcie generowania kodu CAPTCHA
+2025-06-01 22:59:29,062 - __main__ - INFO - Pomyœlnie wygenerowano kod CAPTCHA: 45Y3W5
+2025-06-01 22:59:29,063 - __main__ - INFO - Rozpoczêcie walidacji numeru: 7622662104101552, telefon: 5146159605
+2025-06-01 22:59:29,314 - __main__ - ERROR - B³¹d HTTP (validate-numer): 400 Client Error: Bad Request for url: https://testnr.org/numer/api/validate-numer
+2025-06-01 22:59:29,314 - __main__ - ERROR - Treœæ odpowiedzi: {"error":"Numer telefonu musi sk³adaæ siê z dok³adnie 9 cyfr"}
+2025-06-01 22:59:29,314 - __main__ - WARNING - Walidacja nie powiod³a siê
+2025-06-01 22:59:29,314 - __main__ - INFO - Zakoñczenie wykonania programu
+2025-06-01 23:00:58,530 - __main__ - INFO - Rozpoczêcie wykonania programu
+2025-06-01 23:00:58,530 - __main__ - INFO - Rozpoczêcie generowania kodu CAPTCHA
+2025-06-01 23:00:58,831 - __main__ - INFO - Pomyœlnie wygenerowano kod CAPTCHA: POIBO
+2025-06-01 23:00:58,832 - __main__ - INFO - Rozpoczêcie walidacji numeru: 1018810435327701, telefon: 264315476
+2025-06-01 23:00:59,083 - __main__ - INFO - Pomyœlnie zwalidowano numer
+2025-06-01 23:00:59,084 - __main__ - INFO - Wynik walidacji: {'numer': '1018810435327701', 'alreadyExists': False, 'phone': '264315476', 'saved': True}
+2025-06-01 23:00:59,084 - __main__ - INFO - Zakoñczenie wykonania programu
