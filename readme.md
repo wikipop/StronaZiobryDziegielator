@@ -5,6 +5,10 @@ Ten projekt to narzędzie edukacyjne, które demonstruje interakcję z API stron
 
 ![image](https://github.com/user-attachments/assets/a12f54a1-e11f-4ff7-be57-7de691854eb9)
 
+## Czym jest testnr.org?
+
+Strona https://testnr.org/numer/ to narzędzie do weryfikacji numerów zaświadczeń o prawie do głosowania w wyborach w Polsce, stworzone przez Stowarzyszenie Ruch Kontroli Wyborów. Służy do sprawdzania, czy zaświadczenie nie było użyte wielokrotnie. Użytkownik podaje numer zaświadczenia i telefonu; aplikacja pokazuje, czy jest nieużywane (zielony komunikat) czy użyte (czerwony). Nie wymaga PESEL, zgodna z RODO. Nie jest oficjalnym narzędziem państwowym, hosting w Islandii budzi pytania o wiarygodność.
+
 ## Funkcjonalność
 - Generowanie losowych numerów i numerów telefonów
 - Pobieranie kodów CAPTCHA z serwera TestNr.org
